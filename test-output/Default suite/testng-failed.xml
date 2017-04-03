@@ -5,6 +5,7 @@
     <classes>
       <class name="com.automation.portal.test.functional.HomePageUC_001">
         <methods>
+          <include name="HomePageTC_001"/>
           <include name="tearDown"/>
           <include name="beforeHomePage"/>
           <include name="HomePageTC_002"/>
