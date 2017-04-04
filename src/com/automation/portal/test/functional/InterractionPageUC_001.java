@@ -13,20 +13,20 @@ import org.testng.annotations.Test;
 import com.automation.portal.config.DriverConfig;
 import com.automation.portal.generic.utils.SwitchTo;
 import com.automation.portal.generic.utils.signIn;
-import com.automation.portal.ui.HomePage;
+import com.automation.portal.ui.DraggablePage;
 
-public class HomePageUC_001 {
+public class InterractionPageUC_001 {
 
 	
 	public static WebDriver driver;
 	public static WebDriverWait wait;
-	public static HomePage hp;
+	public static DraggablePage hp;
 	
 	@BeforeTest
 	public static void beforeHomePage()
 	{
 		driver = DriverConfig.getdriverInstance();
-		hp = new HomePage(driver);
+		hp = new DraggablePage(driver);
 	}
 	@Test(priority=1)
 	public static void HomePageTC_001() throws Exception
@@ -73,12 +73,14 @@ public class HomePageUC_001 {
 		act.dragAndDropBy(hp.interactionTab_draggable_drag(),50, 70).perform();
 		act.dragAndDropBy(hp.interactionTab_draggable_drag2(),50,70).perform();
 		act.dragAndDropBy(hp.interactionTab_draggable_drag3(),-70,70).perform();
-	}
+		}
 	
 	@AfterTest
-	public void tearDown() throws Exception{
+	public static void tearDown() throws Exception{
 		Thread.sleep(20000);
 		driver.quit();
+		//return driver;
+		
 	}
 	
 }
