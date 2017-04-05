@@ -6,6 +6,7 @@
       <class name="com.automation.portal.test.functional.InterractionpageUC_003">
         <methods>
           <include name="resizableTC_001"/>
+          <include name="resizableTC_002"/>
           <include name="beforeresizable"/>
         </methods>
       </class> <!-- com.automation.portal.test.functional.InterractionpageUC_003 -->
