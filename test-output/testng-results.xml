@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7698" started-at="2017-04-05T05:51:08Z" finished-at="2017-04-05T05:51:16Z">
+  <suite name="Default suite" duration-ms="6284" started-at="2017-04-05T13:32:58Z" finished-at="2017-04-05T13:33:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7698" started-at="2017-04-05T05:51:08Z" finished-at="2017-04-05T05:51:16Z">
-      <class name="com.automation.portal.test.functional.InterractionPageUC_002">
-        <test-method status="PASS" signature="beforeDroppableTC_001()[pri:0, instance:com.automation.portal.test.functional.InterractionPageUC_002@ae45eb6]" name="beforeDroppableTC_001" is-config="true" duration-ms="7428" started-at="2017-04-05T11:21:08Z" finished-at="2017-04-05T11:21:16Z">
+    <test name="Default test" duration-ms="6284" started-at="2017-04-05T13:32:58Z" finished-at="2017-04-05T13:33:04Z">
+      <class name="com.automation.portal.test.functional.InterractionpageUC_003">
+        <test-method status="PASS" signature="beforeresizable()[pri:0, instance:com.automation.portal.test.functional.InterractionpageUC_003@ae45eb6]" name="beforeresizable" is-config="true" duration-ms="6260" started-at="2017-04-05T19:02:58Z" finished-at="2017-04-05T19:03:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeDroppableTC_001 -->
-        <test-method status="PASS" signature="DroppableTC_002()[pri:0, instance:com.automation.portal.test.functional.InterractionPageUC_002@ae45eb6]" name="DroppableTC_002" duration-ms="252" started-at="2017-04-05T11:21:16Z" finished-at="2017-04-05T11:21:16Z">
+        </test-method> <!-- beforeresizable -->
+        <test-method status="PASS" signature="resizableTC_001()[pri:0, instance:com.automation.portal.test.functional.InterractionpageUC_003@ae45eb6]" name="resizableTC_001" duration-ms="10" started-at="2017-04-05T19:03:04Z" finished-at="2017-04-05T19:03:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DroppableTC_002 -->
-      </class> <!-- com.automation.portal.test.functional.InterractionPageUC_002 -->
+        </test-method> <!-- resizableTC_001 -->
+      </class> <!-- com.automation.portal.test.functional.InterractionpageUC_003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
