@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14766" started-at="2017-04-05T14:49:40Z" finished-at="2017-04-05T14:49:55Z">
+  <suite name="Default suite" duration-ms="16989" started-at="2017-04-06T15:06:36Z" finished-at="2017-04-06T15:06:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14766" started-at="2017-04-05T14:49:40Z" finished-at="2017-04-05T14:49:55Z">
-      <class name="com.automation.portal.test.functional.InterractionpageUC_003">
-        <test-method status="PASS" signature="beforeresizable()[pri:0, instance:com.automation.portal.test.functional.InterractionpageUC_003@ae45eb6]" name="beforeresizable" is-config="true" duration-ms="5420" started-at="2017-04-05T20:19:40Z" finished-at="2017-04-05T20:19:46Z">
+    <test name="Default test" duration-ms="16989" started-at="2017-04-06T15:06:36Z" finished-at="2017-04-06T15:06:53Z">
+      <class name="com.automation.portal.test.functional.DynamicElementsUC_001">
+        <test-method status="PASS" signature="beforeDynamicElements()[pri:0, instance:com.automation.portal.test.functional.DynamicElementsUC_001@ae45eb6]" name="beforeDynamicElements" is-config="true" duration-ms="5334" started-at="2017-04-06T20:36:36Z" finished-at="2017-04-06T20:36:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeresizable -->
-        <test-method status="PASS" signature="resizableTC_001()[pri:1, instance:com.automation.portal.test.functional.InterractionpageUC_003@ae45eb6]" name="resizableTC_001" duration-ms="8991" started-at="2017-04-05T20:19:46Z" finished-at="2017-04-05T20:19:55Z">
+        </test-method> <!-- beforeDynamicElements -->
+        <test-method status="PASS" signature="dynamicElementsTC_001()[pri:0, instance:com.automation.portal.test.functional.DynamicElementsUC_001@ae45eb6]" name="dynamicElementsTC_001" duration-ms="11647" started-at="2017-04-06T20:36:41Z" finished-at="2017-04-06T20:36:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resizableTC_001 -->
-        <test-method status="PASS" signature="resizableTC_002()[pri:2, instance:com.automation.portal.test.functional.InterractionpageUC_003@ae45eb6]" name="resizableTC_002" duration-ms="340" started-at="2017-04-05T20:19:55Z" finished-at="2017-04-05T20:19:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resizableTC_002 -->
-      </class> <!-- com.automation.portal.test.functional.InterractionpageUC_003 -->
+        </test-method> <!-- dynamicElementsTC_001 -->
+      </class> <!-- com.automation.portal.test.functional.DynamicElementsUC_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

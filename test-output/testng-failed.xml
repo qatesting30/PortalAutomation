@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.portal.test.functional.InterractionpageUC_003">
+      <class name="com.automation.portal.test.functional.DynamicElementsUC_001">
         <methods>
-          <include name="resizableTC_001"/>
-          <include name="resizableTC_002"/>
-          <include name="beforeresizable"/>
+          <include name="dynamicElementsTC_002"/>
+          <include name="beforeDynamicElements"/>
         </methods>
-      </class> <!-- com.automation.portal.test.functional.InterractionpageUC_003 -->
+      </class> <!-- com.automation.portal.test.functional.DynamicElementsUC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
